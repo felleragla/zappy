@@ -16,8 +16,9 @@ IA_BIN = zappy_ai
 
 GUI_SRC = src/gui/Graphical.cpp src/gui/Command.cpp src/gui/main.cpp src/gui/Player.cpp src/gui/Camera.cpp
 SERVER_SRC = src/server/main.c src/server/parser.c src/server/server.c\
-			src/server/parse_teams.c src/server/maping.c src/server/event.c\
-			src/server/commandlist.c src/server/server1.c src/server/parsing.c
+                        src/server/parse_teams.c src/server/maping.c src/server/event.c\
+                        src/server/commandlist.c src/server/server1.c src/server/parsing.c\
+                        src/server/server_network.c
 #IA_SRC = src/ia/main.cpp src/ia/protocol_parser.cpp src/ia/network.cpp src/ia/command_buffer.cpp src/ia/time_manager.cpp
 
 OBJ_GUI = $(GUI_SRC:.cpp=.o)

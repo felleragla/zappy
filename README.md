@@ -197,6 +197,23 @@ The project follows the Epitech C coding style guide.
 ### Debug Mode
 To enable debug output, you can modify the source code to include debug prints.
 
+## Mini GTA Demo
+
+A small 2D "GTA-like" example is provided in `src/mini_gta.py`. It
+demonstrates a simple top-down world where a player rectangle can move
+around a large map.
+
+### Running the Demo
+
+Install Pygame and launch the script:
+
+```bash
+pip install pygame
+python3 src/mini_gta.py
+```
+
+Use **WASD** or the **arrow keys** to move the player.
+
 ## License
 
 This project is part of the Epitech curriculum.

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple des Carreaux | Spécialiste en Revêtements</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <p class="tagline">Expert en carreaux et surfaces élégantes</p>
+            <h1>Temple des Carreaux</h1>
+            <p class="location">Lieu : Nkouloulou</p>
+            <a class="cta" href="#contact">Contactez-nous</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section about">
+            <div class="section-content">
+                <h2>Notre Expertise</h2>
+                <p>
+                    Temple des Carreaux est votre partenaire privilégié pour la vente, la pose et l'entretien de carreaux de
+                    grande qualité. Nous mettons notre savoir-faire au service de vos projets résidentiels, commerciaux et
+                    institutionnels afin de créer des espaces élégants, durables et adaptés à vos besoins.
+                </p>
+            </div>
+        </section>
+
+        <section id="services" class="section services">
+            <div class="section-content">
+                <h2>Nos Services</h2>
+                <div class="service-grid">
+                    <article class="service-card">
+                        <h3>Conseil &amp; Accompagnement</h3>
+                        <p>
+                            Bénéficiez d'un accompagnement personnalisé pour choisir les carreaux, finitions et motifs qui
+                            valoriseront votre espace tout en respectant votre budget.
+                        </p>
+                    </article>
+                    <article class="service-card">
+                        <h3>Pose Professionnelle</h3>
+                        <p>
+                            Nos équipes spécialisées assurent une pose impeccable, respectant les délais et les normes de
+                            qualité pour un rendu durable et raffiné.
+                        </p>
+                    </article>
+                    <article class="service-card">
+                        <h3>Entretien &amp; Rénovation</h3>
+                        <p>
+                            Prolongez la beauté de vos surfaces grâce à nos solutions d'entretien, de réparation et de
+                            rénovation adaptées à tous types de carreaux.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects">
+            <div class="section-content">
+                <h2>Réalisations</h2>
+                <div class="project-gallery">
+                    <figure class="project-item">
+                        <div class="project-placeholder"></div>
+                        <figcaption>Cuisines modernes et fonctionnelles</figcaption>
+                    </figure>
+                    <figure class="project-item">
+                        <div class="project-placeholder"></div>
+                        <figcaption>Salles de bain élégantes</figcaption>
+                    </figure>
+                    <figure class="project-item">
+                        <div class="project-placeholder"></div>
+                        <figcaption>Espaces commerciaux accueillants</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="section-content">
+                <h2>Contactez-nous</h2>
+                <p>Vous avez un projet ? Parlons-en dès aujourd'hui.</p>
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Téléphone</h3>
+                        <p><a href="tel:+237672340025">+237 672 34 00 25</a></p>
+                        <p><a href="tel:+237659395276">+237 659 39 52 76</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <h3>Adresse</h3>
+                        <p>Nkouloulou</p>
+                    </div>
+                    <div class="contact-card">
+                        <h3>Horaires</h3>
+                        <p>Lundi - Samedi : 8h00 - 18h00</p>
+                        <p>Dimanche : Sur rendez-vous</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> Temple des Carreaux. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
